@@ -3,13 +3,13 @@
     padding: 0px;
 }
 body{
-    background-color: black;
+    background-color: #363740;
     font-family: 'Mulish', sans-serif;
 
 }
 .login-card{
     width: 341px;
-    height: 500px;
+    height: 520px;
     border-radius: 8px;
     background-color:#FFFFFF;
 }
@@ -42,7 +42,7 @@ span>a{
     color: #FFFFFF;
 }
 label{
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
 }
 .forgot-password{
@@ -55,10 +55,18 @@ input[type=email] {
 input[type=password] {
     background-color: #FCFDFE;
 }
-input::placeholder {
-
-    /* font-weight: bold; */
-    /* opacity: 0.5; */
-    color: red;
+input[type=email]::placeholder {
+    color: #cfd2e3;
   }
-  
+.password-input::placeholder {
+    color: #cfd2e3;
+}
+
+
+  .password-input {
+    padding-right: 30px; /* Adjust the padding to accommodate the image */
+    background-image: url('./active.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 22px; /* Adjust the size of the image */
+}
