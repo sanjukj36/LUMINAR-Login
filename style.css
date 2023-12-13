@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: 'Mulish', sans-serif;
+
+}
+.login-card{
+    margin: 1% 0% 0% 30%;
+    width: 341px;
+    height: 500px;
+    border-radius: 8px;
+    background-color:#FFFFFF;
+}
+.dkit{
+    font-size:15px ;
+    font-weight: 600;
+}
+h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight:900 ;
+}
+p{
+    font-size: 12px;
+    color: #A4A6B3;
+}
+.color-p{
+    color: #9FA2B4;
+}
+.color-input{
+    color: #9FA2B4;
+}
+span{
+    color: #3751FF;
+}
+.button{
+    font-size:12px ;
+    background-color: #3751FF;
+    color: #FFFFFF;
+}
+label{
+    font-size: 10px;
+    font-weight: 600;
+}
+.forgot-password{
+    margin-left: 50%;
+    font-size: 10px;
+}
+input[type=email] {
+    background-color: #FCFDFE;
+}
+input[type=password] {
+    background-color: #FCFDFE;
+}
+input::placeholder {
+    
+    /* font-weight: bold; */
+    /* opacity: 0.5; */
+    color: red;
+  }
+  
