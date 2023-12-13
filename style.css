@@ -8,7 +8,7 @@ body{
 
 }
 .login-card{
-    margin: 1% 0% 0% 30%;
+    margin: 4% 0% 0% 37%;
     width: 341px;
     height: 500px;
     border-radius: 8px;
@@ -55,7 +55,7 @@ input[type=password] {
     background-color: #FCFDFE;
 }
 input::placeholder {
-    
+
     /* font-weight: bold; */
     /* opacity: 0.5; */
     color: red;
