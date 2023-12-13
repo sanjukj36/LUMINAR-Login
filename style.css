@@ -32,7 +32,9 @@ p{
 .color-input{
     color: #9FA2B4;
 }
-span{
+span>a{
+    text-decoration: none;
+    font-weight: 600;
     color: #3751FF;
 }
 .button{
